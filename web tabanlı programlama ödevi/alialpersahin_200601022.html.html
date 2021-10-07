@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <!--Ali Alper Şahin 200601022 WEB TABANLI PROGRAMLAMAYA GİRİŞ-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Hesaplama</title>
+</head>
+<body>
+       <div>  <ul>Birinci Sayı</ul>
+        <input type="text" id="birincisayi" /> 
+       
+        <ul class="dnm">İkinci Sayı </ul>
+         <input type="text" id="ikincisayi" />
+    </div>
+       
+    
+
+<div class="sonuc">
+    <div class="buttons">
+        <input type="button" value="+" id="topla" onclick="toplam()" />
+        <input type="button" value="-" id="fark" onclick="cikartma()" />
+        <input type="button" value="*" id="carp" onclick="carpma()" />
+        <input type="button" value="/" id="bol" onclick="bolme()" />
+    </div>
+   
+    
+    <br><h2>Sonuç: <label id="sonuc" for="Sonuc"></label></h2></label></br>
+</div>
+
+
+
+</body>
+</html>
